@@ -14,16 +14,16 @@ public class Car {
     public static boolean handBrake = false;
     public static boolean blinkersLeft = false;
     public static boolean blinkersRight = false;
-    public static boolean doorsOpen1 = false;
-    public static boolean doorsOpen2 = false;
-    public static boolean doorsOpen3 = false;
-    public static boolean doorsOpen4 = false;
-    public static boolean doorsOpen5 = false;
     public static boolean wiperOnOff = false;
     public static boolean radioOn = false;
     public static boolean radio1 = false;
     public static boolean radio2 = false;
     public static boolean radio3= false;
+    public static boolean doorsOpen1 = false;
+    public static boolean doorsOpen2 = false;
+    public static boolean doorsOpen3 = false;
+    public static boolean doorsOpen4 = false;
+    public static boolean doorsOpen5 = false;
 
 
     public static void clutch(int x) {
@@ -181,6 +181,9 @@ public class Car {
         this.lightsOnOff = false;
         this.blinkersLeft = false;
         this.blinkersRight = false;
+       Brands carBrand = Brands.Audi;
+       Brands.
+
 
 
     }
@@ -280,7 +283,8 @@ public class Car {
         switch (x) {
 
             case 1:
-                System.out.println("\t\tDør 1 åbner");
+                System.out.println("\t\tDør 1 åbner")
+                ;
                 doorsOpen1 = true;
 
                 break;
@@ -498,33 +502,5 @@ public class Car {
         }
     }
 
-//    public static void radioOff(int x) {
-//
-//        switch (x) {
-//
-//            case 1:
-//                System.out.println("Radioen er slukket");
-//                radioOff= true;
-//                break;
-//            case 2:
-//                System.out.println("Radioen starter ikke program 1");
-//                radio1= false;
-//                break;
-//            case 3:
-//                System.out.println("Radioen starter ikke program 2");
-//                radio2= false;
-//                break;
-//            case 4:
-//                System.out.println("Radioen starter ikke program 3");
-//                radio3= false;
-//                break;
-//
-//            default:
-//                System.out.println("Radioen er slukket");
-//                radioOff= true;
-//                break;
-//
-//
-//        }
-//    }
+
 }
